@@ -84,7 +84,7 @@ i 4 canali dati in uno solo, usando mathlab siamo arrivati ad avere un
 unico grafico per visualizzare in chiaro tutti i dati.
 
 ::: center
-<img src="images/grafico.jpg" width="250">
+<img src="image/grafico.jpg" width="250">
 :::
 
 Infine, abbiamo creato una pagina php responsive, hostata su Altervista,
