@@ -110,16 +110,16 @@ utilizzati nel progetto.
 
 # Riferimenti 
 
-Per l'interfaccia dove viene impostata la temperatura goal ci siamo
+- Per l'interfaccia dove viene impostata la temperatura goal ci siamo
 ispirati a questo progetto, riadattandone alcune parti in modo che fosse
 compatibile con i nostri range e i nostri componenti:
 <https://www.youtube.com/watch?v=NPfaLKKsf_Q&list=PLSPeQu-8Pue2YBXg1Bcz_mh_08k9h_Fr3&index=2&t=2328s&ab_channel=upir>
-Per la visualizzazione dei dati in Matlab abbiamo trovato tutte le
+- Per la visualizzazione dei dati in Matlab abbiamo trovato tutte le
 informazioni utili sulla documentazione ufficiale:
-<https://it.mathworks.com/help/matlab/index.html?s_tid=hc_panel> Per
-l'utilizzo della libreria U8G ci siamo appoggiati alla documentazione
+<https://it.mathworks.com/help/matlab/index.html?s_tid=hc_panel>
+- Per l'utilizzo della libreria U8G ci siamo appoggiati alla documentazione
 fornita su github:
-[https://github.com/olikraus/u8glib/wiki/userreference ](https://github.com/olikraus/u8glib/wiki/userreference ){.uri}
-Per la ricerca di soluzioni ad eventuali problemi avuti con l'hardware
+[https://github.com/olikraus/u8glib/wiki/userreference ](https://github.com/olikraus/u8glib/wiki/userreference )
+- Per la ricerca di soluzioni ad eventuali problemi avuti con l'hardware
 ci siamo affidati ai vari forum su arduino:
-[https://github.com/olikraus/u8glib/wiki/userreference ](https://github.com/olikraus/u8glib/wiki/userreference ){.uri}
+[https://github.com/olikraus/u8glib/wiki/userreference ](https://github.com/olikraus/u8glib/wiki/userreference )
