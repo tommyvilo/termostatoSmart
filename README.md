@@ -1,15 +1,3 @@
-::: center
-![image](images/logo.png)
-
-::: huge
-**Relazione progetto Prototipizzazione con arduino**
-:::
-
-::: LARGE
-**Venturi Davide VR471414 Vilotto Tommaso VR471487**
-:::
-:::
-
 # Introduzione {#sec:intro}
 
 La nostra idea era quella di creare un regolatore di temperatura che ci
