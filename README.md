@@ -46,7 +46,7 @@ dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
   - Schermo oled    
   - Potenziometro   
   - Bottone         
-  - Resistenze      
+  - Resistenza 1k ohm      
   - Switch          
   - Led             
   - Relé (idealmente collegati ad un ac)
