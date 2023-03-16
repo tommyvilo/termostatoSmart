@@ -89,7 +89,8 @@ Infine, abbiamo creato una pagina php responsive, hostata su Altervista,
 per visualizzare comodamente da pc o smartphone i dati elaborati da
 mathlab. Il frame della finestra di mathlab purtroppo si aggiorna solo
 ogni 15 secondi, causa limiti della licenza, la temperatura attuale
-invece ogni 16. Link al sito:
+invece ogni 16. 
+Link al sito:
 <a href="http://checkitout.altervista.org/dati.php" target="_blank">Dati termostato smart</a>
 
 
