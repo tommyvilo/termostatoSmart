@@ -91,7 +91,7 @@ mathlab. Il frame della finestra di mathlab purtroppo si aggiorna solo
 ogni 15 secondi, causa limiti della licenza, la temperatura attuale
 invece ogni 16. 
 Link al sito:
-<a href="http://checkitout.altervista.org/dati.php" target="_blank">Dati termostato smart</a>
+[http://checkitout.altervista.org/dati.php ](http://checkitout.altervista.org/dati.php )
 
 
 Librerie utilizzate:
