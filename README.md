@@ -84,7 +84,7 @@ per visualizzare comodamente da pc o smartphone i dati elaborati da
 mathlab. Il frame della finestra di mathlab purtroppo si aggiorna solo
 ogni 15 secondi, causa limiti della licenza, la temperatura attuale
 invece ogni 16. Link al sito:
-[http://checkitout.altervista.org/dati.php ](http://checkitout.altervista.org/dati.php ){.uri}
+[http://checkitout.altervista.org/dati.php ](http://checkitout.altervista.org/dati.php )
 
 
 
