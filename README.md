@@ -1,4 +1,4 @@
-# Introduzione {#sec:intro}
+# Introduzione
 
 La nostra idea era quella di creare un regolatore di temperatura che ci
 permettesse di mantenere temperature stabili entro piccoli range, adatto
@@ -33,13 +33,8 @@ mandare il tutto in cloud. Come piattaforma cloud pensavamo di
 appoggiarci a thingspeak, il quale offre di base una visualizzazione dei
 dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
 
-::: center
-![image](images/schema.png)
 
-**Immagine 1:** Schema del progetto ad alto livello
-:::
-
-# Tabella dei Componenti {#sec:lc}
+# Tabella dei Componenti
 
 ::: center
   Componenti      
@@ -56,7 +51,7 @@ dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
   Termocoppia     
 :::
 
-# Realizzazione {#sec:real}
+# Realizzazione
 
 Per la realizzazione prima di tutto ci siamo avvalorati dell'uso di un
 sito per simulare i componenti online: wokwi. Nell'attesa di ricevere
@@ -99,46 +94,7 @@ ogni 15 secondi, causa limiti della licenza, la temperatura attuale
 invece ogni 16. Link al sito:
 [http://checkitout.altervista.org/dati.php ](http://checkitout.altervista.org/dati.php ){.uri}
 
-# Descrizione codice e librerie {#sec:desc}
 
-![image](images/setup.PNG)
-
-**Immagine 2:** Inizialmente settiamo i pin:
-
--   Switch collegatto a pin 2;
-
--   Bottone collegato a pin 4;
-
--   Relé collegati a pin 12 e 13.
-
-Successivamente precalcoliamo i gradi per la pagina di selezione della
-temperatura, questo procedimento alleggerisce il caricamento della
-schermata. ![image](images/loop.PNG)
-
-**Immagine 3:** In base a quali flag sono segnati, decidiamo quale
-pagina mostrare a schermo.
-
-![image](images/mainPage.PNG)
-
-**Immagine 4:** Qui vediamo la schermata principale, ogni secondo
-leggiamo la temperatura e a seconda del valore letto decidiamo se
-spegnere il riscaldamento/raffreddamento oppure chiamiamo la funzione
-sottostante. ![image](images/tempHandler.PNG)
-
-**Immagine 5:** La funzione tempHandler viene eseguita per verificare se
-ci troviamo fuori dal range ideale e quindi accendere il
-riscaldamento/raffreddamento.
-
-![image](images/sendData.PNG)
-
-**Immagine 6:** La funzione SendData si occupa della preparazione della
-stringa di dati da inviare successivamente all'esp32, il quale la
-invierà in cloud.
-
-![image](images/readButton.PNG)
-
-**Immagine 7:** Invocata a ogni loop, questa funzione legge lo stato del
-bottone, gestendone anche il bouncing, e dello switch.
 
 Librerie utilizzate:
 
@@ -151,22 +107,15 @@ Librerie utilizzate:
 -   **OneWire** : per comunicare con i componenti (legato a
     DallasTemperature)
 
-# Schema Collegamenti {#sec:scheme}
+# Schema Collegamenti 
 
 ![image](images/fritz.png)
 
 **Immagine 8:** Qui vediamo lo schema dei collegamenti tra i componenti
 utilizzati nel progetto.
 
-# Implementazione fisica {#sec:ref}
 
-![Schema dell'esperimento](schema.png){width="\\textwidth"}
-
-![image](grafico.jpg){width="45%"} ![image](grafico.jpg){width="45%"}
-
-![Risultati sperimentali 3](grafico.jpg){width="80%"}
-
-# Riferimenti {#sec:ref}
+# Riferimenti 
 
 Per l'interfaccia dove viene impostata la temperatura goal ci siamo
 ispirati a questo progetto, riadattandone alcune parti in modo che fosse
