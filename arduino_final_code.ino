@@ -374,6 +374,8 @@ void setup() {
   
   pinMode ( 2 , INPUT_PULLUP ); //thermo mode on/off
   pinMode ( 4 , INPUT_PULLUP ); //swith between thermo on pages
+  pinMode ( A4 , OUTPUT ); //relay output for cooling
+  pinMode ( A5 , OUTPUT ); //relay output for heating
   Serial.begin(9600);
   u8g.setColorIndex(1);          // set color to white
 
