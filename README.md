@@ -29,7 +29,8 @@ visualizzarne l'andamento temporale. Per rendere possibile il tutto
 abbiamo pensato ad un architettura master slave nella quale il nostro
 arduino uno (slave) esegue le rilevazioni, gestisce il monitor, esegue
 le computazioni e invia i dati all'esp32 (master) che si occupa di
-mandare il tutto in cloud. Come piattaforma cloud pensavamo di
+mandare il tutto in cloud. La comunicazione tra master e slave avviene
+tramite seriale rx/tx. Come piattaforma cloud pensavamo di
 appoggiarci a thingspeak, il quale offre di base una visualizzazione dei
 dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
 
