@@ -112,7 +112,7 @@ utilizzati nel progetto.
 
 Installare arduino_final_code.ino sull'arduino, e esp32.ino sull'esp.
 
-Attenzione, potrebbero essere necessaria l'importazione delle libbreria sopra citate se non gia presenti nell'idle.
+Attenzione, potrebbe essere necessaria l'importazione delle librerie sopra citate se non già presenti nell'idle.
 
 
 # Riferimenti 
