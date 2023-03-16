@@ -83,10 +83,6 @@ attivo, bit di flag raffreddamento attivo. Successivamente abbiamo unito
 i 4 canali dati in uno solo, usando mathlab siamo arrivati ad avere un
 unico grafico per visualizzare in chiaro tutti i dati.
 
-::: center
-<img src="image/grafico.jpg" width="250">
-:::
-
 Infine, abbiamo creato una pagina php responsive, hostata su Altervista,
 per visualizzare comodamente da pc o smartphone i dati elaborati da
 mathlab. Il frame della finestra di mathlab purtroppo si aggiorna solo
@@ -109,7 +105,6 @@ Librerie utilizzate:
 
 # Schema Collegamenti 
 
-![scheme](images/fritz.png)
 <img src="image/fritz.png" width="500">
 
 
