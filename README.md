@@ -30,9 +30,14 @@ abbiamo pensato ad un architettura master slave nella quale il nostro
 arduino uno (slave) esegue le rilevazioni, gestisce il monitor, esegue
 le computazioni e invia i dati all'esp32 (master) che si occupa di
 mandare il tutto in cloud. La comunicazione tra master e slave avviene
-tramite seriale rx/tx. Come piattaforma cloud pensavamo di
-appoggiarci a thingspeak, il quale offre di base una visualizzazione dei
+tramite seriale rx/tx. Come piattaforma cloud ci siamo 
+appoggiati a thingspeak, il quale offre di base una visualizzazione dei
 dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
+
+<img src="image/schema.png" width="500">
+
+
+**Immagine 1:** Schema ad alto livello del progetto.
 
 
 # Componenti usati
@@ -105,7 +110,7 @@ Librerie utilizzate:
 <img src="image/fritz.png" width="500">
 
 
-**Immagine 1:** Qui vediamo lo schema dei collegamenti tra i componenti
+**Immagine 2:** Qui vediamo lo schema dei collegamenti tra i componenti
 utilizzati nel progetto.
 
 
