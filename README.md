@@ -104,7 +104,7 @@ Librerie utilizzate:
 <img src="image/fritz.png" width="500">
 
 
-**Immagine 8:** Qui vediamo lo schema dei collegamenti tra i componenti
+**Immagine 1:** Qui vediamo lo schema dei collegamenti tra i componenti
 utilizzati nel progetto.
 
 
