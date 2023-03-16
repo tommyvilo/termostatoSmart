@@ -34,22 +34,18 @@ appoggiarci a thingspeak, il quale offre di base una visualizzazione dei
 dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
 
 
-# Tabella dei Componenti
+#Componenti usati
+  -  Esp32
+  - Arduino Uno    
+  - Schermo oled    
+  - Potenziometro   
+  - Bottone         
+  - Resistenze      
+  - Switch          
+  - Led             
+  - Relé            
+  - Termocoppia     
 
-::: center
-  Componenti      
-  --------------- ------------
-  Lato Arduino    Lato Esp32
-  Arduino Uno     Esp32
-  Schermo oled    
-  Potenziometro   
-  Bottone         
-  Resistenze      
-  Switch          
-  Led             
-  Relé            
-  Termocoppia     
-:::
 
 # Realizzazione
 
