@@ -49,7 +49,7 @@ dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
   - Resistenze      
   - Switch          
   - Led             
-  - Relé            
+  - Relé (idealmente collegati ad un ac)
   - Termocoppia     
 
 
