@@ -34,7 +34,7 @@ appoggiarci a thingspeak, il quale offre di base una visualizzazione dei
 dati ricevuti e inoltre permette la creazione di propri grazie a matlab.
 
 
-#Componenti usati
+# Componenti usati
   -  Esp32
   - Arduino Uno    
   - Schermo oled    
