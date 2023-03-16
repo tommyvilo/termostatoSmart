@@ -109,7 +109,8 @@ Librerie utilizzate:
 
 # Schema Collegamenti 
 
-![image](images/fritz.png)
+![scheme](images/fritz.png)
+
 
 **Immagine 8:** Qui vediamo lo schema dei collegamenti tra i componenti
 utilizzati nel progetto.
