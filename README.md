@@ -108,6 +108,12 @@ Librerie utilizzate:
 utilizzati nel progetto.
 
 
+# Installazione file 
+
+Installare arduino_final_code.ino sull'arduino, e esp32.ino sull'esp.
+Attenzione, potrebbero essere necessaria l'importazione delle libbreria sopra citate se non gia presenti nell'idle.
+
+
 # Riferimenti 
 
 - Per l'interfaccia dove viene impostata la temperatura goal ci siamo
