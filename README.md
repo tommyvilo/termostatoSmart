@@ -1,3 +1,7 @@
+
+Presentazione:
+[https://onedrive.live.com/view.aspx?resid=5D9A248A2D2A4729!3872&ithint=file%2cpptx&authkey=!AFqXwM0UzmEWSwE](https://onedrive.live.com/view.aspx?resid=5D9A248A2D2A4729!3872&ithint=file%2cpptx&authkey=!AFqXwM0UzmEWSwE)
+
 # Introduzione
 
 La nostra idea era quella di creare un regolatore di temperatura che ci
